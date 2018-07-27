@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54e0cf53-c8b7-4c46-a6a5-2f0bf105e020" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list id="54e0cf53-c8b7-4c46-a6a5-2f0bf105e020" name="Default" comment="" />
+    <list default="true" id="489ab33c-5c4d-4040-a97f-186c76c6bc68" name="feature/validate-executor-1" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chang/validateExecutor/ValidateException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chang/validateExecutor/ValidateExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chang/validateExecutor/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ValidateExecutorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -20,24 +24,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="ValidateExecutorTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ValidateExecutorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+            <state relative-caret-position="252">
+              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/chang/validateExecutor/Validateable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chang/validateExecutor/Executeable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chang/validateExecutor/ValidateException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chang/validateExecutor/Validator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chang/validateExecutor/ValidateExecutor.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/ValidateExecutorTest.java" />
       </list>
     </option>
   </component>
@@ -70,8 +95,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -94,12 +117,58 @@
               <item name="validateexecutor" type="b2602c69:ProjectViewProjectNode" />
               <item name="validateexecutor" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="validateexecutor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="validateexecutor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="validateExecutor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="validateexecutor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="validateexecutor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="validateexecutor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="validateexecutor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="validateexecutor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="validateexecutor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.hamcrest:hamcrest-core:1.3" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="validateexecutor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.hamcrest:hamcrest-core:1.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="hamcrest-core-1.3.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="validateexecutor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.hamcrest:hamcrest-core:1.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="hamcrest-core-1.3.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="hamcrest" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -109,9 +178,9 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="tasks.servers" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -125,9 +194,60 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ValidateExecutorTest.validateExceptionTest2">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="ValidateExecutorTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="validateexecutor" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ValidateExecutorTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ValidateExecutorTest.validateExceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="validateexecutor" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ValidateExecutorTest" />
+      <option name="METHOD_NAME" value="validateExceptionTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ValidateExecutorTest.validateExceptionTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="validateexecutor" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ValidateExecutorTest" />
+      <option name="METHOD_NAME" value="validateExceptionTest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -167,18 +287,46 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="JUnit.ValidateExecutorTest.test" />
+      <item itemvalue="JUnit.ValidateExecutorTest.validateExceptionTest" />
+      <item itemvalue="JUnit.ValidateExecutorTest.validateExceptionTest2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ValidateExecutorTest.validateExceptionTest2" />
+        <item itemvalue="JUnit.ValidateExecutorTest.validateExceptionTest" />
+        <item itemvalue="JUnit.ValidateExecutorTest.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
+    <task id="Default" summary="Default task">
+      <branch name="master" repository="$PROJECT_DIR$" />
       <changelist id="54e0cf53-c8b7-4c46-a6a5-2f0bf105e020" name="Default" comment="" />
       <created>1532656729004</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1532656729004</updated>
-      <workItem from="1532656732804" duration="935000" />
+      <updated>1532658005455</updated>
+      <workItem from="1532656732804" duration="1018000" />
+    </task>
+    <task active="true" id="validate-executor-1" summary="Excutor 초기 모델링">
+      <branch name="master" repository="$PROJECT_DIR$" original="true" />
+      <branch name="feature/1" repository="$PROJECT_DIR$" />
+      <changelist id="489ab33c-5c4d-4040-a97f-186c76c6bc68" name="feature/validate-executor-1" comment="" />
+      <created>1532625325000</created>
+      <option name="issue" value="true" />
+      <url>https://github.com/jejugamja/validate-executor/issues/1</url>
+      <option name="number" value="1" />
+      <option name="presentableId" value="validate-executor-1" />
+      <option name="project" value="validate-executor" />
+      <option name="type" value="BUG" />
+      <updated>1532658005477</updated>
+      <workItem from="1532658005764" duration="5092000" />
+      <workItem from="1532668404338" duration="81000" />
     </task>
     <option name="changelistNameFormat" value="feature/{id}" />
     <servers>
@@ -189,38 +337,71 @@
       </GitHub>
     </servers>
   </component>
+  <component name="TestHistory">
+    <history-entry file="ValidateExecutorTest_test - 2018.07.27 at 14h 02m 51s.xml">
+      <configuration name="ValidateExecutorTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ValidateExecutorTest_test - 2018.07.27 at 14h 02m 59s.xml">
+      <configuration name="ValidateExecutorTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ValidateExecutorTest_test - 2018.07.27 at 14h 03m 27s.xml">
+      <configuration name="ValidateExecutorTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ValidateExecutorTest_test - 2018.07.27 at 14h 03m 45s.xml">
+      <configuration name="ValidateExecutorTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ValidateExecutorTest_test - 2018.07.27 at 14h 04m 37s.xml">
+      <configuration name="ValidateExecutorTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ValidateExecutorTest_test - 2018.07.27 at 14h 10m 57s.xml">
+      <configuration name="ValidateExecutorTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ValidateExecutorTest_test - 2018.07.27 at 14h 11m 09s.xml">
+      <configuration name="ValidateExecutorTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ValidateExecutorTest_test - 2018.07.27 at 14h 12m 33s.xml">
+      <configuration name="ValidateExecutorTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ValidateExecutorTest_test - 2018.07.27 at 14h 13m 00s.xml">
+      <configuration name="ValidateExecutorTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ValidateExecutorTest_test - 2018.07.27 at 14h 14m 41s.xml">
+      <configuration name="ValidateExecutorTest.test" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="935000" />
+    <option name="totallyTimeSpent" value="6191000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1177" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="1177" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32910246" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32910246" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32910246" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32910246" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32910246" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,10 +411,87 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ValidateExecutorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chang/validateExecutor/Verifiable.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/RuntimeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chang/validateExecutor/ValidateException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chang/validateExecutor/Validator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chang/validateExecutor/ValidateExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        <state relative-caret-position="537">
+          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/validateexecutor.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/org/hamcrest/CoreMatchers.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="102" column="33" selection-start-line="102" selection-start-column="33" selection-end-line="102" selection-end-column="33" />
+          <folding>
+            <element signature="e#4088#4089#0" expanded="true" />
+            <element signature="e#4123#4124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ValidateExecutorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
